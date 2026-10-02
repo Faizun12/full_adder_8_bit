@@ -1,0 +1,27 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib secureip -o /home/ise/VLSI_assignments/full_adder_8_bit/half_adder_tb_isim_beh.exe -prj /home/ise/VLSI_assignments/full_adder_8_bit/half_adder_tb_beh.prj work.half_adder_tb 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/ise/VLSI_assignments/full_adder_8_bit/nand_gate.vhd" into library work
+Parsing VHDL file "/home/ise/VLSI_assignments/full_adder_8_bit/x_or_gate.vhd" into library work
+Parsing VHDL file "/home/ise/VLSI_assignments/full_adder_8_bit/and_gate.vhd" into library work
+Parsing VHDL file "/home/ise/VLSI_assignments/full_adder_8_bit/half_adder.vhd" into library work
+Parsing VHDL file "/home/ise/VLSI_assignments/full_adder_8_bit/half_adder_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 95312 KB
+Fuse CPU Usage: 510 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture gate_level of entity nand_gate [nand_gate_default]
+Compiling architecture logic of entity x_or_gate [x_or_gate_default]
+Compiling architecture logic of entity and_gate [and_gate_default]
+Compiling architecture circuit of entity half_adder [half_adder_default]
+Compiling architecture behavior of entity half_adder_tb
+Time Resolution for simulation is 1ps.
+Compiled 11 VHDL Units
+Built simulation executable /home/ise/VLSI_assignments/full_adder_8_bit/half_adder_tb_isim_beh.exe
+Fuse Memory Usage: 104020 KB
+Fuse CPU Usage: 600 ms
+GCC CPU Usage: 330 ms

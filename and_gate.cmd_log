@@ -1,0 +1,3 @@
+vhdtdtfi -lib work nand_gate.vhd -lib work and_gate.vhd -prj full_adder_8_bit -o and_gate.spl -module and_gate -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 and_gate.spl /home/ise/VLSI_assignments/full_adder_8_bit/and_gate.sym 
+xst -intstyle ise -ifn "/home/ise/VLSI_assignments/full_adder_8_bit/and_gate.xst" -ofn "/home/ise/VLSI_assignments/full_adder_8_bit/and_gate.syr" 

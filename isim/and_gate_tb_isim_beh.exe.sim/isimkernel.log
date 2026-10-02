@@ -1,0 +1,10 @@
+Command line:
+   and_gate_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  41679
+
+Fri Oct  2 07:49:30 2026
+
+
+ Elaboration Time: 0.05 sec

@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/ise/VLSI_assignments/full_adder_8_bit/x_or_gate.xst" -ofn "/home/ise/VLSI_assignments/full_adder_8_bit/x_or_gate.syr" 
